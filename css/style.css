@@ -864,13 +864,13 @@ ul.external li a:hover {
   content: "";
 }
 
-.testimonial-item {
+.FAQS-item {
   margin: 0 auto;
   padding-bottom: 50px;
   width: 64%;
 }
 
-.testimonial-item img {
+.FAQS-item img {
   border: 3px solid #fff;
   border-radius: 50%;
   display: inline-block;
@@ -878,12 +878,12 @@ ul.external li a:hover {
   max-width: 100px;
 }
 
-.testimonial-item > div {
+.FAQS-item > div {
   line-height: 30px;
   position: relative;
 }
 
-.testimonial-item > div:before {
+.FAQS-item > div:before {
   background-image: url("../images/icons/quotes.png");
   background-repeat: no-repeat;
   bottom: 127px;
@@ -894,7 +894,7 @@ ul.external li a:hover {
   content: "";
 }
 
-.testimonial-item > div:after {
+.FAQS-item > div:after {
   background-image: url("../images/icons/quotes.png");
   background-position: -58px 0;
   background-repeat: no-repeat;
@@ -905,7 +905,7 @@ ul.external li a:hover {
   width: 45px;
 }
 
-.testimonial-item > div > span {
+.FAQS-item > div > span {
   display: inline-block;
   font-weight: 700;
   margin: 40px 0 30px;
