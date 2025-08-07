@@ -38,7 +38,7 @@ iframe {
 }
 
 a {
-  color: #0aa6bd;
+  color: #A38D69;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -82,7 +82,7 @@ main > section {
 }
 
 .btn-blue {
-  background-color: rgba(10, 166, 189, 0.75);
+  background-color: rgba(163, 141, 105, 0.75);
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
   padding: 15px 55px;
   color: #fff;
@@ -95,7 +95,7 @@ main > section {
 }
 
 .bg-blue {
-  background-color: #0aa6bd;
+  background-color: #A38D69;
 }
 
 /* Sweep To Right */
@@ -149,7 +149,7 @@ main > section {
 }
 
 .section-title h2 {
-  color: #0aa6bd;
+  color: #A38D69;
   font-size: 24px;
   font-weight: 700;
   line-height: 20px;
@@ -296,7 +296,7 @@ main > section {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0aa6bd;
+  background-color: #A38D69;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -439,8 +439,8 @@ main > section {
 
 #nav-arrows > a.sl-next:hover,
 #nav-arrows > a.sl-prev:hover {
-  background-color: #0aa6bd;
-  border-color: #0aa6bd;
+  background-color: #A38D69;
+  border-color: #A38D69;
   color: #fff;
 }
 
@@ -512,14 +512,14 @@ main > section {
 }
 
 .fancybox-next span {
-  background: url("../images/right.png") no-repeat scroll center center #0aa6bd;
+  background: url("../images/right.png") no-repeat scroll center center #A38D69;
   height: 50px;
   width: 50px;
   right: 0;
 }
 
 .fancybox-prev span {
-  background: url("../images/left.png") no-repeat scroll center center #0aa6bd;
+  background: url("../images/left.png") no-repeat scroll center center #A38D69;
   height: 50px;
   width: 50px;
   left: 0;
@@ -589,7 +589,7 @@ main > section {
 
 .service-icon i {
   font-size: 60px;
-  color: #0aa6bd;
+  color: #A38D69;
 }
 
 .service-item h3 {
@@ -722,7 +722,7 @@ main > section {
 }
 
 .portfolio-filter li a.active {
-  color: #0aa6bd;
+  color: #A38D69;
 }
 
 .portfolio-filter li a::after {
@@ -813,7 +813,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-  background-color: #0aa6bd;
+  background-color: #A38D69;
   color: #fff;
 }
 
@@ -962,7 +962,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-  background-color: #0aa6bd;
+  background-color: #A38D69;
   color: #fff;
 }
 
@@ -1006,7 +1006,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-  background-color: #0aa6bd;
+  background-color: #A38D69;
 }
 
 .price-table.featured ul li:last-child a,
@@ -1076,7 +1076,7 @@ ul.external li a:hover {
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #0aa6bd;
+  border-color: #A38D69;
 }
 
 textarea.form-control {
@@ -1096,7 +1096,7 @@ textarea.form-control {
 }
 
 #submit:before {
-  background-color: rgba(10, 166, 189, 0.75);
+  background-color: rgba(163, 141, 105, 0.75);
 }
 
 #submit.btn-effect:after {
@@ -1226,7 +1226,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-  color: #0aa6bd;
+  color: #A38D69;
 }
 
 .footer-content > p {
