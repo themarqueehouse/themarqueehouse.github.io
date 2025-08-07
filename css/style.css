@@ -131,7 +131,7 @@ main > section {
 .btn-effect:hover,
 .btn-effect:focus,
 .btn-effect:active {
-  color: rgb(9, 157, 178);
+  color: rgb(140, 120, 83);
 }
 
 .btn-effect:hover:before,
@@ -548,7 +548,7 @@ main > section {
   left: 0;
   top: 4px;
   font-size: 28px;
-  color: #1fb5f6;
+  color: #A38D69;
 }
 
 /*=================================================================
