@@ -582,7 +582,7 @@
 				</div>
 
 				<div class="col-md-7 contact-form">
-					<form id="contact-form"
+					<form id="contact-form" action="https://formspree.io/f/xvgqvnrl" method="post">
 						<div class="input-field">
 							<input type="text" name="name" class="form-control" placeholder="Your Name...">
 						</div>
@@ -695,7 +695,6 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
 	<script src="plugins/gmap.js"></script>
 	<script src="js/main.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>                                     
 	<script>
 		$(function () {
 			$("#contact-form").validate({
@@ -761,48 +760,6 @@
 			});
 		});
 	</script>
-<script>
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault(); // prevent default form submit
-
-  // Hide previous messages
-  document.getElementById('mail-success').style.display = 'none';
-  document.getElementById('mail-fail').style.display = 'none';
-
-  // Collect form values
-  const name = this.name.value.trim();
-  const email = this.email.value.trim();
-  const subject = this.subject.value.trim();
-  const message = this.message.value.trim();
-
-  if(!name || !email || !subject || !message) {
-    alert("Please fill in all fields.");
-    return;
-  }
-
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: "themarqueehouse@gmail.com",         // your Gmail address
-    Password: "kdbqwljgddpqjqie",            // your 16-char Gmail App Password (keep private)
-    To: 'themarqueehouse@gmail.com',               // where to receive emails
-    From: email,                                   // sender email from form
-    Subject: subject,
-    Body: `
-      <b>Name:</b> ${name} <br>
-      <b>Email:</b> ${email} <br>
-      <b>Message:</b> ${message}
-    `
-  }).then(function(response) {
-    if(response === 'OK') {
-      document.getElementById('mail-success').style.display = 'block';
-      document.getElementById('contact-form').reset();
-    } else {
-      document.getElementById('mail-fail').style.display = 'block';
-      console.error(response);
-    }
-  });
-});
-</script>                                    
 </body>
 
 </html>
