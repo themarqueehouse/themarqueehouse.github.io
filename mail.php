@@ -1,5 +1,5 @@
 <?php
-    $to = "youremail.com"; // replace this email with yours
+    $to = "themarqueehouse@gmail.com"; // replace this email with yours
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "Content-type: text/html;From: $from";
